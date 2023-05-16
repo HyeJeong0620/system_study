@@ -18,9 +18,9 @@ int main(){
     printf("Blocks = %d\n", (int)statbuf.st_blocks);
 
     printf("** timespec Style\n");
-    printf("Atime = %d\n", (int)statbuf.st_atime.tv_sec);
-    printf("Mtime = %d\n", (int)statbuf.st_mtime.tv_sec);
-    printf("Ctime = %d\n", (int)statbuf.st_ctime.tv_sec);
+    // printf("Atime = %d\n", (int)statbuf.st_atim.tv_sec);
+    // printf("Mtime = %d\n", (int)statbuf.st_mtim.tv_sec);
+    // printf("Ctime = %d\n", (int)statbuf.st_ctim.tv_sec);
     printf("** old Style\n");
     printf("Atime = %d\n", (int)statbuf.st_atime);
     printf("Mtime = %d\n", (int)statbuf.st_mtime);
